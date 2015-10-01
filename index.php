@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	Hello!
-	<?php
-	echo 'Работает PHP!';
-		?>
-</body>
-</html>
+<?php
+/**PHP – это широко используемый язык сценариев
+* общего назначения
+* с открытым исходным кодом.
+*/
+
+/** Код PHP отделяется
+* специальными начальным и конечным тегами <?php и ?>, 
+* которые позволяют "переключаться" в "PHP-режим" и выходить из него. 
+*/
+include_once 'Model/model.php';
+include_once 'Controller/controller.php';
+?>	
