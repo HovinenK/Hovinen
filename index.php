@@ -1,13 +1,13 @@
 <?php
-/**PHP – это широко используемый язык сценариев
-* общего назначения
-* с открытым исходным кодом.
-*/
+error_reporting(E_ALL);
+ini_set('display_errors', 1); //вывод ошибок
 
-/** Код PHP отделяется
-* специальными начальным и конечным тегами <?php и ?>, 
-* которые позволяют "переключаться" в "PHP-режим" и выходить из него. 
-*/
-include_once 'Model/model.php';
+//include_once 'Model/model.php';
+include_once 'Model/PostsModel.php';
 include_once 'Controller/controller.php';
-?>	
+include_once 'Route/routing.php';
+
+
+echo $response;
+
+//$response-> send();
